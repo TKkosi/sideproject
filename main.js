@@ -1,4 +1,4 @@
-KELVIN CONVERTER
+//KELVIN CONVERTER
 //the value of kelvin
 const kelvin = 293 
 //the value of celsius
@@ -18,7 +18,7 @@ newton = Math.floor(newton);
 console.log(`The temperature is ${newton} degrees Newton.`);
 
 
-DOG YEAR CONVERTER
+//DOG YEAR CONVERTER
 
 let myAge = 21
 // user information
@@ -39,7 +39,7 @@ console.log(myName)
 
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years `)
 
-Magic Eight Ball
+//Magic Eight Ball
 
 let userName = ''//'kosi'
 userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
@@ -75,7 +75,7 @@ switch(randomNumber){
         break;  
 }
 
-Race Day
+//Race Day
 
 let raceNumber = Math.floor(Math.random() * 1000);
 let early = true ;
@@ -95,4 +95,11 @@ else if(age < 18){
 }
 else{
     console.log(`Please approach the registration desk , thanks!`)
+}
+
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+
+// Write your code below
+for (let i = 0; i < vacationSpots.length; i++ ){
+  console.log('I would love to visit ' + vacationSpots[i]);
 }
