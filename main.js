@@ -103,3 +103,22 @@ const vacationSpots = ['Bali', 'Paris', 'Tulum'];
 for (let i = 0; i < vacationSpots.length; i++ ){
   console.log('I would love to visit ' + vacationSpots[i]);
 }
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+// Read a line of input from stdin
+rl.question('', (userInput) => {
+    // Print "Hello, World."
+    console.log("Hello, World.");
+    
+    // Print the user-provided input
+    console.log(userInput);
+    
+    // Close the readline interface
+    rl.close();
+});
